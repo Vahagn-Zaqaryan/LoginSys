@@ -1,0 +1,111 @@
+ul{
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+	list-style: none;
+}
+h1,h2{
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+	font-weight: normal;
+}
+p{
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+}
+a:link,a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+ul li{
+	padding: 5px 0px;
+}
+ul li input[type="text"],ul li input[type="password"]{
+	width: 200px;
+}
+h1{
+	font-size: 1.8em;
+}
+h2{
+	font-size: 1.4em;
+}
+.logo{
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	color: #fff;
+	width: 200px;
+	font:2em Arial;
+}
+body{
+	background: grey;
+	font-family: arial;
+	font-size: 0.8em;
+}
+#containar,footer{
+	background: #fff;
+	width: 920px;
+	margin: 0px auto;
+	padding: 20px;
+}
+header{
+	padding: 10px;
+	width: 940px;
+	margin: 0px auto 10px auto;
+}
+#containar{
+	border-radius: 5px 5px 0px 0px;
+	min-height: 500px;
+}
+footer{
+	border-radius: 0px 0px 5px 5px;
+}
+.widget{
+	margin-bottom: 20px;
+}
+.widget h2{
+	padding: 0px 5px;
+	margin: 0px 0px 10px 0px;
+	font-weight: normal;
+	border-bottom: solid 1px #ddd;
+}
+.widget .inner{
+	margin: 0px 10px;
+}
+nav{
+	float: left;
+}
+nav ul{
+	margin: 0px;
+}
+nav ul li{
+	display: inline;
+	margin-right: 10px;
+}
+nav ul li.current{
+	font-weight: bold;
+}
+nav ul li.last{
+	margin-right: 0px;
+}
+aside{
+	width: 260px;
+	float: right;
+	border-left: dashed 1px #aaa;
+	padding-left: 15px;
+}
+#login li :link{
+	margin-top: 5px;
+}
+footer{
+	border-top: dashed 1px #ddd;
+	color: #999;
+}
+.clear{
+	clear: both;
+	
+}
+
+
+

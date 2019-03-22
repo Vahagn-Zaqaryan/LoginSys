@@ -1,0 +1,42 @@
+#mail{
+	padding: 10px;
+	border: dashed 1px #aaa;
+	width: 610px;
+}
+textarea{
+	max-width: 610px;
+	width: 610px;
+	height: 300px;
+	border:solid 1px #aaa;
+	font-size: 20px;
+	font-family: arial;
+}
+input[type="text"]{
+	width: 610px;
+	font-size: 20px;
+	font-family: arial;
+	border: none;
+}
+#new{
+	width: 630px;
+	height: 30px;
+	background-color: #000;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+input[type="submit"]{
+	width: 76px;
+	height: 29px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#05f);
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+input[type="submit"]:hover{
+	border: 1px solid #3079ed;
+	    background-image: -webkit-linear-gradient(top,#4d90fe,#08e);
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+}
